@@ -75,7 +75,7 @@ Also, when comparing the intervals for hurdle 7 with hurdle 2, it appears that h
 
 ![](https://github.com/lucasweyrich958/HurdleAnalysis/blob/main/figures/SHAP%20Waterfall.png)
 
-The SHAP waterfall plot shows the individual feature contributions on the predictions for the world record, which the random forest actually predicts to be 13.10 and not 12.80. Importantly, it seems that it is the velocity and interval for hurdles 7 and 8 are most critical, followed by hurdles 5 and 3. This plot therefore suggests that the velocity in the later hurdles were more critical for the world record.
+The SHAP waterfall plot shows the individual feature contributions on the predictions for the world record. Importantly, it seems that it is the velocity and interval for hurdles 7 and 8 are most critical, followed by hurdles 5 and 3. This plot therefore suggests that the velocity in the later hurdles were more critical for the world record.
 
 ![](https://github.com/lucasweyrich958/HurdleAnalysis/blob/main/figures/plot12.png)
 ![](https://github.com/lucasweyrich958/HurdleAnalysis/blob/main/figures/plot13.png)
