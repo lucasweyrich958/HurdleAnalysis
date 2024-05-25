@@ -8,7 +8,7 @@ All code and data set is available in this Git for replication
 
 The data set is derived from Todd Henson (2023) and AthleteFirst (https://www.athletefirst.org). At this point: a big shout out to him for such an amazing collection of spring and hurdle data for both, men and women. This is truly an amazing data base and should be acknowledged properly.
 
-Paste screenshot of pdf
+!["Example of PDF table](https://github.com/lucasweyrich958/HurdleAnalysis/blob/main/figures/PDF.png)
 
 The data set was, unfortunately, only available in PDF version. The PDF seemed to consist of several HTML tables, for each competition. The data contained data about intervals (in seconds) and velocity (in m/s) for each hurdle. Additionally, the data set contained reaction time data (in s). Using R and extensive matching using regex, and moving columns the PDF table was cleaned and preprocessed. Only complete data was retained, and outliers above 4 standard deviation for the final racing time were excluded. This resulted in a data set of 1177 sprinters (albeit many repeating). 
 
